@@ -1,0 +1,19 @@
+.pie-chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.dashboard{
+    padding: 10px 20px ;
+}
+h1{
+    font-size: 32px;
+}
+.ag-theme-quartz{
+    margin-top: 20px;
+}
+.pie-chart h2{
+    color: black;
+    font-size: 24px;
+}
