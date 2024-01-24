@@ -10,7 +10,7 @@ function Navbar() {
     navigate("/login")
   }
   return (
-    <header>
+    <header className="header">
      <div>
      <Link to="/">Dashboard</Link>
      {authDetails.isAuth?<button onClick={handleLogout}>Logout</button>:<Link to="/login">Login</Link>}

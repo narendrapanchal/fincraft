@@ -28,7 +28,7 @@ const Dashboard = () => {
   return (
     <div className='dashboard'>
       <h1>SpaceVue Dashboard</h1>
-      {missionData.length>0&&<PieChart successful={missionData.filter((ele)=>(ele.successful===true)).length} total={missionData.length} ></PieChart>}      <BarChart missionData={missionData}></BarChart>
+      {missionData.length>0&&<PieChart missionData={missionData} total={missionData.length} ></PieChart>}      <BarChart missionData={missionData}></BarChart>
     </div>
   );
 };

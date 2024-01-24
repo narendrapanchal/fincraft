@@ -1,4 +1,4 @@
-header {
+/* header {
     background-color: #333; 
     padding: 10px; 
     display: flex;
@@ -27,5 +27,52 @@ header h2{
   }
   button:hover{
     text-decoration: none;
+  } */
+  
+  .header {
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header *{
+    font-size: 20px;
+  }
+  
+  .header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header a:hover {
+    color: #ffcc00; /* Yellow on hover */
+  }
+  
+  .header button {
+    background-color: #ff6600; /* Orange */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  .header button:hover {
+    background-color: #e64d00; /* Darker Orange on hover */
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: white; /* Green */
   }
   

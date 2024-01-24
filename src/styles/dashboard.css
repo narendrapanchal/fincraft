@@ -1,9 +1,34 @@
+.pie-chart >div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .pie-chart{
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-gap: 20px;
+}
+@media (max-width:720px) {
+.pie-chart{
     flex-direction: column;
 }
+.pie-chart >div{
+    flex-direction: column;   
+}
+}
+div.label{
+    display: flex;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+div.back-box{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
 .dashboard{
     padding: 10px 20px ;
 }
