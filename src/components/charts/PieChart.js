@@ -111,7 +111,7 @@ const PieChart = ({ missionData, total }) => {
     <>
       <div className="pie-chart">
         <div>
-          <h2>Data based on success</h2>
+          <h2>Data based on Success</h2>
           <div>
             {chartLabel(successColors, successNames)}
             <canvas
